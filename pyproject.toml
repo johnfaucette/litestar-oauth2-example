@@ -1,0 +1,22 @@
+[tool.poetry]
+authors = ["John Faucett <john.faucett@studitemps.de>"]
+description = ""
+name = "oauth2-example"
+packages = [{include = "oauth2_example"}]
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+click = "^8.1.6"
+httpx-oauth = "^0.13.0"
+litestar = "^2.0.0b4"
+python = "^3.11"
+rich = "^13.4.2"
+uvicorn = "^0.23.1"
+pydantic-settings = "^2.0.2"
+python-dotenv = "^1.0.0"
+httpx = "^0.24.1"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]

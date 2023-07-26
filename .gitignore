@@ -1,0 +1,7 @@
+# python relics
+*.py[oc]
+__pycache__/
+
+# environment files
+.env*
+!.env.template
